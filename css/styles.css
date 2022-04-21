@@ -1,0 +1,57 @@
+/* navigation and headers color: #212121; */
+/* text color: #757575; */
+/* accent color: #2196F3; */
+/* white color: #FFFFFF; */
+/* bachground blocks color: #F5F4FA */
+
+body {
+    background-color: #fff;
+    color: #757575;
+}
+
+.list {
+list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Site navigation */
+
+.site-nav .link {
+color:#212121;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.contacts-nav .link {
+    color: #212121;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: #2196F3;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo-blue {
+  color: #2196F3;
+}
+
+/* Site footer */
+
+.contacts-footer .link {
+color: #212121;
+}
+
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+color: #2196F3;
+}
