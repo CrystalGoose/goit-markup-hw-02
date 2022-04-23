@@ -17,6 +17,7 @@ list-style: none;
     text-decoration: none;
 }
 
+
 /* Site navigation */
 
 .site-nav .link {
@@ -43,6 +44,22 @@ color:#212121;
 
 .logo-blue {
   color: #2196F3;
+}
+
+
+/* Hero */
+.hero-title {
+    color: #212121;
+}
+
+
+/* Peculiarities section */
+.section-title {
+    color: #212121;
+}
+
+.peculiarities-list .title {
+    color: #212121;
 }
 
 /* Site footer */
