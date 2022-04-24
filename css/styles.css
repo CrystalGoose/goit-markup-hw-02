@@ -2,11 +2,20 @@
 /* text color: #757575; */
 /* accent color: #2196F3; */
 /* white color: #FFFFFF; */
-/* bachground blocks color: #F5F4FA */
+/* background blocks color: #F5F4FA */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+}
+
 
 body {
-    background-color: #fff;
-    color: #757575;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -17,58 +26,99 @@ list-style: none;
     text-decoration: none;
 }
 
+button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+button.primary {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+}
+
+button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+}
 
 /* Site navigation */
 
 .site-nav .link {
-color:#212121;
+color: var(--title-text-color);
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+color: var(--accent-color);
 }
 
 .contacts-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo {
+    text-decoration: none;
     color: #000000;
 }
 
+.logo:hover {
+    color: var(--primary-text-color);
+}
+
 .logo-blue {
-  color: #2196F3;
+  color: var(--accent-color);
 }
 
 
 /* Hero */
 .hero-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 
 /* Peculiarities section */
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
-.peculiarities-list .title {
-    color: #212121;
+.peculiarities .title {
+    color: var(--title-text-color);
 }
+
+
+/* Our team section */
+.team .title {
+    color: var(--title-text-color);
+}
+
 
 /* Site footer */
 
 .contacts-footer .link {
-color: #212121;
+color: var(--title-text-color);
 }
 
 .contacts-footer .link:hover,
 .contacts-footer .link:focus {
-color: #2196F3;
+color: var(--accent-color);
+}
+
+
+/* Styles for Portfolio.html */
+.work-title {
+    color: var(--title-text-color);
+}
+
+.portfolio .link:hover,
+.portfolio .link:focus {
+color: var(--accent-color);
 }
