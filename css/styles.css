@@ -82,7 +82,7 @@ color: var(--accent-color);
 
 .logo {
     text-decoration: none;
-    color: #000000;
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
@@ -93,14 +93,15 @@ color: var(--accent-color);
     color: var(--primary-text-color);
 }
 
-.logo-blue {
-  color: var(--accent-color);
+.logo-black {
+  color: #000000;
 }
 
 
 /* Hero */
 .hero-title {
-    color: var(--title-text-color);
+    color: var(--primary-bg-color);
+    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -164,9 +165,14 @@ color: var(--accent-color);
 
 /* Site footer */
 
-address {
+footer {
 background-color: #2F303A;
 }
+
+.logo-white {
+    color: #FFFFFF;
+}
+
 .contacts-footer .link {
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
