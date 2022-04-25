@@ -159,6 +159,10 @@ background-color: #2f303a;
 background-color: var(--secondary-bg-color);
 }
 
+.team-card {
+    background-color: var(--primary-bg-color);
+}
+
 .team .title {
   color: var(--title-text-color);
   font-weight: 500;
