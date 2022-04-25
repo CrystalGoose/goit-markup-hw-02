@@ -67,7 +67,7 @@ button.secondary {
 }
 
 .contacts-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -137,7 +137,6 @@ button.secondary {
 }
 
 .peculiarities .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -154,7 +153,6 @@ button.secondary {
 }
 
 .team .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -174,7 +172,6 @@ footer {
 .contacts-footer .link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -191,6 +188,11 @@ footer {
 }
 
 /*========== Styles for Portfolio.html ==========*/
+
+.portfolio-title {
+visibility: hidden;
+}
+
 .work-title {
   color: var(--title-text-color);
 }
@@ -217,7 +219,6 @@ footer {
 }
 
 .portfolio .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
